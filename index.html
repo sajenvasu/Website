@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Sajen's CSS Website</title>
+    </head>
+    <body>
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+
+        <header>
+            <center>
+                <div class="top_web">
+                    <ul>
+                        <li><a href="index.html" class="but-ani">Home</a></li>
+                        <li><a href="resume.html" class="but-ani">Resume</a></li>
+                        <li><a href="https://github.com/sajenvasu" class="but-ani">Github</a></li>
+                        <li><a href="contact.html" class="but-ani">Contact</a></li>
+                    </ul>
+                </div>
+            </center>
+        </header>
+        <center>
+            <h1>Sajen Vasuthevan</h1>
+            <img src="avatar.jpg" alt="Italian Trulli" style="width:300px; height:300px;">
+            <h2>University of Windsor '23</h2>
+            <h3>Computer Science Student</h3>
+
+        </center>
+
+        <style>
+            body {
+                margin: 0;
+                background-color: #FBEEC1;
+            }
+
+            header {
+                background-color: #659DBD;
+                font-family: 'Oswald', sans-serif;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            li {
+                display: inline-block;
+                padding-top: 30px;
+                padding-bottom: 10px;
+                margin-left: 50px;
+                font-size: 40px;
+            }
+
+            a {
+                text-decoration: none;
+                color: #39CCCC;
+                font-weight: bold;
+                
+
+            }
+
+            a:hover {
+                text-decoration: none;
+                color: #39CCCC;
+                font-weight: bold;
+                -webkit-text-stroke-color: #48e0e0;
+                -webkit-text-stroke-width: 0.5px;
+            }
+            h1{
+                font-family: 'Oswald', sans-serif;
+                font-size: 50px;
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+            h2{
+                font-family: 'Oswald', sans-serif;
+                font-size: 25px;
+                margin-top: 2px;
+                margin-bottom: 0px;
+            }
+            h3{
+                font-family: 'Oswald', sans-serif;
+                margin-top: 0px;
+            }
+            .but-ani::after{
+                content: '';
+                display: block;
+                width: 0;
+                height: 2px;
+                background: #48e0e0;
+                transition: width .3s;
+            }
+            .but-ani:hover::after{
+                width: 100%;
+                transition: width .3s;
+            }
+            img{
+                
+            }
+        </style>
+    </body>
+</html>
