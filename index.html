@@ -1,101 +1,139 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Sajen's CSS Website</title>
+        <title>Sajen Vasuthevan CSS Website</title>
+        <link rel = "stylesheet" href = "style.css">
     </head>
     <body>
-        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+        
+        <section id = "Home">
+            <div id = "Menu">
+                <ul>
+                    <li><a href = "#Home">Home</a></li>
+                    <li><a href = "https://drive.google.com/file/d/1nOGQwxUHJZnuoExj0zca-B3NxLLauc3l/view?usp=sharing" target="_blank">Resume</a></li>
+                    <li><a href = "https://github.com/sajenvasu" target="_blank">Github</a></li>
+                    <!--<li><a href = "#Projects">Projects</a></li>-->
+                    <li><a href = "#Contact">Contact</a></li>
+                </ul>
+            </div>
 
-        <header>
+            <br>
             <center>
-                <div class="top_web">
-                    <ul>
-                        <li><a href="index.html" class="but-ani">Home</a></li>
-                        <li><a href="https://drive.google.com/file/d/1nOGQwxUHJZnuoExj0zca-B3NxLLauc3l/view?usp=sharing" class="but-ani" target="_blank">Resume</a></li>
-                        <li><a href="https://github.com/sajenvasu" class="but-ani" target="_blank">Github</a></li>
-                        <li><a href="contact.html" class="but-ani">Contact</a></li>
-                    </ul>
-                </div>
+            <img src="img/profile.JPG" alt="Profile Picture" class = "Profile">
             </center>
-        </header>
-        <center>
-            <h1>Sajen Vasuthevan</h1>
-            <img src="PIC.JPG" alt="" style="width:290px; height:350px; border: 5px;">
-            <h2>University of Windsor '23</h2>
-            <h3>Computer Science Student</h3>
+            <h1> Sajen Vasuthevan </h1>
+            <h2> University of Windsor '23 </h2>
+            <h3> Computer Science Student </h3>
 
-        </center>
+        </section>
+        
+        <!--
+        <section id = "Projects">
+            <div id = "Menu">
+                <ul>
+                    <li><a href = "#Home">Home</a></li>
+                    <li><a href = "https://drive.google.com/file/d/1nOGQwxUHJZnuoExj0zca-B3NxLLauc3l/view?usp=sharing" target="_blank">Resume</a></li>
+                    <li><a href = "https://github.com/sajenvasu" target="_blank">Github</a></li>
+                    <li><a href = "#Projects">Projects</a></li>
+                    <li><a href = "#Contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <h1>Projects</h1>
+            <div id = "Box">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><h2>TV Show Program</h2></td>
+                            <td><h2>Multiple User Login</h2></td>
+                            <td ><h2>Math Help Program</h2></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Languges: Java (Console) and C# (GUI)</p>
+                                <p>Description: A user friendly program to keep track of where a user is at in the show.</p>
+                            </td>
+                            <td>
+                                <p>Languges: C# (GUI)</p>
+                                <p>Description: A user friendly program to keep track of where a user is at in the show.</p>
+                            </td>
+                            <td>
+                                <p>Languges: C++ (Console)</p>
+                                <p>Description: Math Help is a program that allows anyone to practice basic math calculations.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
 
-        <style>
-            body {
-                margin: 0;
-                background-color: #FBEEC1;
-            }
+            </div>
+            
+        </section>
+        -->
 
-            header {
-                background-color: #659DBD;
-                font-family: 'Oswald', sans-serif;
-            }
+        <section id = "Contact">
+            <div id = "Menu">
+                <ul>
+                    <li><a href = "#Home">Home</a></li>
+                    <li><a href = "https://drive.google.com/file/d/1nOGQwxUHJZnuoExj0zca-B3NxLLauc3l/view?usp=sharing" target="_blank">Resume</a></li>
+                    <li><a href = "https://github.com/sajenvasu" target="_blank">Github</a></li>
+                    <!--<li><a href = "#Projects">Projects</a></li>-->
+                    <li><a href = "#Contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <h6>Contact Details</h6>
 
-            ul {
-                list-style: none;
-                margin: 0;
-                padding: 0;
-            }
+            <center>
+            <div id = "Week_Days">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><h4>Days</h4></td>
+                            <td><h4>Monday</h4></td>
+                            <td><h4>Tuesday</h4></td>
+                            <td><h4>Wenesday</h4></td>
+                            <td><h4>Thursday</h4></td>
+                            <td><h4>Friday</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Availability</h4></td>
+                            <td><h4>9:00am - 5:00pm</h4></td>
+                            <td><h4>8:30am - 6:00pm</h4></td>
+                            <td><h4>9:00am - 5:00pm</h4></td>
+                            <td><h4>8:30am - 6:00pm</h4></td>
+                            <td><h4>9:00am - 5:00pm</h4></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div id = "contact_details">
 
-            li {
-                display: inline-block;
-                padding-top: 30px;
-                padding-bottom: 10px;
-                margin-left: 50px;
-                font-size: 40px;
-            }
+                <table>
+                    <tbody>
+                        <tr>
+                            <td id = "contact_det_Right">
+                                <h5>Phone Number:  </h5>
+                                <h5>Email Address:  </h5>
+                            </td>
+                            <td id = "contact_det_Left">
+                                <h5>  (647)-394-1675</h5>
+                                <h5>  sajen.vasuthevan@gmail.com</h5>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
 
-            a {
-                text-decoration: none;
-                color: #39CCCC;
-                font-weight: bold;
-                
+            </div>
+            </center>
 
-            }
+        </section>
 
-            a:hover {
-                text-decoration: none;
-                color: #39CCCC;
-                font-weight: bold;
-                -webkit-text-stroke-color: #48e0e0;
-                -webkit-text-stroke-width: 0.5px;
-            }
-            h1{
-                font-family: 'Oswald', sans-serif;
-                font-size: 50px;
-                margin-bottom: 5px;
-                margin-top: 5px;
-            }
-            h2{
-                font-family: 'Oswald', sans-serif;
-                font-size: 25px;
-                margin-top: 2px;
-                margin-bottom: 0px;
-            }
-            h3{
-                font-family: 'Oswald', sans-serif;
-                margin-top: 0px;
-            }
-            .but-ani::after{
-                content: '';
-                display: block;
-                width: 0;
-                height: 2px;
-                background: #48e0e0;
-                transition: width .3s;
-            }
-            .but-ani:hover::after{
-                width: 100%;
-                transition: width .3s;
-            }
-            img{
-                
-            }
-        </style>
+
     </body>
 </html>
